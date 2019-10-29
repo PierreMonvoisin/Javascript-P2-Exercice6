@@ -1,8 +1,10 @@
 let swap = function() {
-  this.src = "./assets/img/" + this.id + "_2.jpg";
+  //Changement de la source de l'image en fonction de l'ID de l'image
+  this.src = './assets/img/' + this.id + '_2.jpg';
 }
 let swapBack = function() {
-  this.src = "./assets/img/" + this.id + ".jpg";
+  //Changement de la source vers l'originale de l'image en fonction de l'ID de l'image
+  this.src = './assets/img/' + this.id + '.jpg';
 }
 
 document.getElementById('image1').onmouseenter = swap ;
